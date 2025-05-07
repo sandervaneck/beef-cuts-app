@@ -9,7 +9,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover }) => {
     <svg
       style={{ width: "200%", height: "auto" }}
       viewBox="0 0 800 250"
-      xmlns="http://www.w3.org/2000/svg"
+      // xmlns="http://www.w3.org/2000/svg"
     >
       <defs id="defs78">
         <marker
@@ -118,11 +118,17 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover }) => {
           onMouseLeave={() => onCutHover(null)}
         />
         <path
-          id="2"
-          d="M160,100 L210,100 L210,150 L160,150 Z"
-          fill="#ccc"
-          stroke="#000"
-          onMouseEnter={() => onCutHover("2")}
+          fill="#ca1a23"
+          fillOpacity={1}
+          stroke="#000000"
+          strokeWidth={1.00000012}
+          strokeMiterlimit={4}
+          strokeOpacity={1}
+          strokeDasharray={"none"}
+          d="m 332.28125,147.625 -61.375,3.875 0,0.125 -35.34375,1.96875 1.28125,49.40625 0.40625,-1.25 95.9375,-9.40625 -0.28125,-0.53125 -2,-41.5 1.375,-2.6875 z m 0.90625,44.71875 7.15625,13.3125 0.0312,0 -7.1875,-13.3125 z"
+          transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
+          id="16"
+          onMouseEnter={() => onCutHover("16")}
           onMouseLeave={() => onCutHover(null)}
         />
         <path
