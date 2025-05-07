@@ -6,7 +6,11 @@ interface Props {
 
 const BeefCutsMap: React.FC<Props> = ({ onCutHover }) => {
   return (
-    <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      style={{ width: "200%", height: "auto" }}
+      viewBox="0 0 800 250"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <defs id="defs78">
         <marker
           orient="auto"
