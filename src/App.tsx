@@ -12,7 +12,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <header className="header">
-        <h1>Interactive Beef Cuts</h1>
+        <h1>Eckies - Beef Cuts</h1>
         <select
           className="language-select"
           value={language}

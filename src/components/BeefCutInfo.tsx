@@ -16,7 +16,8 @@ const BeefCutInfo: React.FC<Props> = ({ selectedId, language }) => {
       <h2 className="cut-name">{cut.name[language]}</h2>
       <ul className="nutrition">
         <li>
-          <strong>Calories:</strong> {cut.nutrition.kcal} kcal
+          <strong>{caloriesForLanguage(language)}:</strong> {cut.nutrition.kcal}{" "}
+          kcal
         </li>
         <li>
           <strong>Protein:</strong> {cut.nutrition.protein} g
@@ -44,3 +45,18 @@ const BeefCutInfo: React.FC<Props> = ({ selectedId, language }) => {
 };
 
 export default BeefCutInfo;
+
+const caloriesForLanguage = (language: string) => {
+  switch (language) {
+    case "english":
+      return "Calories";
+    case "german":
+      return "Kalorieen";
+    case "spanish":
+      return "Calorias";
+    case "italian":
+      return "Calori";
+    default:
+      return "Calories";
+  }
+};
