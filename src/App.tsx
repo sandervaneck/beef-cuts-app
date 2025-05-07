@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import BeefCutsMap from "./components/BeefCutsMap";
+import BeefCutInfo from "./components/BeefCutInfo";
 
-function App() {
+const App: React.FC = () => {
+  const [selectedCutId, setSelectedCutId] = useState<string | null>(null);
+  const [language, setLanguage] = useState<
+    "english" | "french" | "italian" | "spanish" | "german"
+  >("english");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="app">
+      <header className="header">
+        <h1>Interactive Beef Cuts</h1>
+        <select
+          className="language-select"
+          value={language}
+          onChange={(e) => setLanguage(e.target.value as any)}
         >
-          Learn React
-        </a>
+          <option value="english">English</option>
+          <option value="french">Français</option>
+          <option value="italian">Italiano</option>
+          <option value="spanish">Español</option>
+          <option value="german">Deutsch</option>
+        </select>
       </header>
+
+      <div className="cut-container">
+        <BeefCutsMap onCutHover={setSelectedCutId} />
+        <BeefCutInfo selectedId={selectedCutId} language={language} />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
