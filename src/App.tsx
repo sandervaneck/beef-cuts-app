@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import BeefCutsMap from "./components/BeefCutsMap";
 import BeefCutInfo from "./components/BeefCutInfo";
+import { translateLabel } from "./components/Translator";
 
 const App: React.FC = () => {
   const [selectedCutId, setSelectedCutId] = useState<string | null>(null);
@@ -12,7 +13,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <header className="header">
-        <h1>Eckies - Beef Cuts</h1>
+        <h1>{translateLabel("butcher", language)} van Eck</h1>
         <select
           className="language-select"
           value={language}
@@ -27,6 +28,7 @@ const App: React.FC = () => {
       </header>
 
       <div className="cut-container">
+        <h5>{translateLabel("helperText", language)}:</h5>
         <BeefCutsMap onCutHover={setSelectedCutId} />
         <BeefCutInfo selectedId={selectedCutId} language={language} />
       </div>

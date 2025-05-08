@@ -1,5 +1,6 @@
 import React from "react";
 import { beefCuts } from "../beefcuts";
+import { translateLabel } from "./Translator";
 
 interface Props {
   selectedId: string | null;
@@ -9,34 +10,43 @@ interface Props {
 const BeefCutInfo: React.FC<Props> = ({ selectedId, language }) => {
   const cut = beefCuts.find((c) => c.id === selectedId);
 
-  if (!cut) return <div>Select a beef cut</div>;
+  if (!cut) return <div>{translateLabel("selectABeefCut", language)}</div>;
 
   return (
     <div className="cut-card">
       <h2 className="cut-name">{cut.name[language]}</h2>
       <ul className="nutrition">
+        <h4>{translateLabel("nutritionalValue", language)}:</h4>
         <li>
-          <strong>{caloriesForLanguage(language)}:</strong> {cut.nutrition.kcal}{" "}
-          kcal
+          <strong>{translateLabel("calories", language)}:</strong>{" "}
+          {cut.nutrition.kcal} kcal
         </li>
         <li>
-          <strong>Protein:</strong> {cut.nutrition.protein} g
+          <strong>{translateLabel("proteins", language)}:</strong>{" "}
+          {cut.nutrition.protein} g
         </li>
         <li>
-          <strong>Saturated Fats:</strong> {cut.nutrition.saturatedFats} g
+          <strong>{translateLabel("saturatedFats", language)}:</strong>{" "}
+          {cut.nutrition.saturatedFats} g
         </li>
         <li>
-          <strong>Unsaturated Fats:</strong> {cut.nutrition.unsaturatedFats} g
+          <strong>{translateLabel("unsaturatedFats", language)}:</strong>{" "}
+          {cut.nutrition.unsaturatedFats} g
         </li>
         <li>
-          <strong>Carbohydrates:</strong> {cut.nutrition.carbs} g
+          <strong>{translateLabel("carbs", language)}:</strong>{" "}
+          {cut.nutrition.carbs} g
         </li>
       </ul>
       <div className="prep">
-        <h4>Preparation Methods:</h4>
+        <h4>{translateLabel("preparationMethods", language)}:</h4>
         <ul>
           {cut.preparation.map((p, i) => (
-            <li key={i}>{p}</li>
+            <li key={i}>
+              {p[language].split(/(?=\d+\.)/).map((segment, idx) => (
+                <div key={idx}>{segment.trim()}</div>
+              ))}
+            </li>
           ))}
         </ul>
       </div>
@@ -45,18 +55,3 @@ const BeefCutInfo: React.FC<Props> = ({ selectedId, language }) => {
 };
 
 export default BeefCutInfo;
-
-const caloriesForLanguage = (language: string) => {
-  switch (language) {
-    case "english":
-      return "Calories";
-    case "german":
-      return "Kalorieen";
-    case "spanish":
-      return "Calorias";
-    case "italian":
-      return "Calori";
-    default:
-      return "Calories";
-  }
-};
