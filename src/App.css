@@ -34,42 +34,19 @@ body {
   gap: 1rem;
 }
 
+/* Remove horizontal layout override */
 @media screen and (min-width: 768px) {
   .cut-container {
-    flex-direction: row;
+    flex-direction: column; /* make sure it remains column on desktop */
   }
 
   svg {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
   }
 
   .cut-card {
-    width: 50%;
+    width: 100%;
+    max-width: 600px;
   }
-}
-
-.cut-card {
-  background-color: white;
-  border-radius: 10px;
-  padding: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.cut-name {
-  margin: 0;
-  color: #d32f2f;
-  font-size: 1.2rem;
-}
-
-.nutrition,
-.prep ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0;
-}
-
-.nutrition li,
-.prep li {
-  font-size: 0.95rem;
-  margin-bottom: 0.25rem;
 }
