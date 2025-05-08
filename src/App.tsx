@@ -1,14 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import BeefCutsMap from "./components/BeefCutsMap";
 import BeefCutInfo from "./components/BeefCutInfo";
 import { translateLabel } from "./components/Translator";
+import { useSearchParams } from "react-router";
 
 const App: React.FC = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
+  console.log(searchParams);
+  const defaultLang = searchParams.get("lang") as
+    | "english"
+    | "french"
+    | "italian"
+    | "spanish"
+    | "german"
+    | null;
+
+  const [language, setLanguage] = useState(defaultLang ?? "english");
   const [selectedCutId, setSelectedCutId] = useState<string | null>(null);
-  const [language, setLanguage] = useState<
-    "english" | "french" | "italian" | "spanish" | "german"
-  >("english");
+
+  useEffect(() => {
+    setSearchParams({ lang: language });
+  }, [language, setSearchParams]);
 
   return (
     <div className="app">
