@@ -37,6 +37,8 @@ const App: React.FC = () => {
           <option value="italian">Italiano</option>
           <option value="spanish">Español</option>
           <option value="german">Deutsch</option>
+          <option value="dutch">Nederlands</option>
+          <option value="portuguese">Portugues</option>
         </select>
       </header>
 
