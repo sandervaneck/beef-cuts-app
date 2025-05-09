@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import BeefCutsMap from "./components/BeefCutsMap";
 import BeefCutInfo from "./components/BeefCutInfo";
-import { translateLabel } from "./components/Translator";
+import { referral, translateLabel } from "./components/Translator";
 import { useSearchParams } from "react-router";
 
 const App: React.FC = () => {
@@ -46,6 +46,8 @@ const App: React.FC = () => {
         <h5>{translateLabel("helperText", language)}:</h5>
         <BeefCutsMap onCutHover={setSelectedCutId} />
         <BeefCutInfo selectedId={selectedCutId} language={language} />
+        <div className="referral-text">{referral[language]}</div>
+        <img src="/Armeator.png" alt="Armeator" className="referral-image" />
       </div>
     </div>
   );

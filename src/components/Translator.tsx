@@ -103,3 +103,107 @@ export const translateLabel = (label: string, language: string): string => {
     translations[label]?.[language] ?? translations[label]?.english ?? label
   );
 };
+
+export const referral: Record<string, React.ReactNode> = {
+  english: (
+    <>
+      Need a meat thermometer with a phone app for precision while grilling? Get
+      yours{" "}
+      <a
+        href="https://armeator.com/yllebntc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        here
+      </a>
+      . Use discount code <strong>SANDERVANECK</strong> now for a 10% discount!
+    </>
+  ),
+  german: (
+    <>
+      Brauchen Sie ein Fleischthermometer mit App für präzises Grillen? Holen
+      Sie sich Ihres{" "}
+      <a
+        href="https://armeator.com/yllebntc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        hier
+      </a>
+      . Verwenden Sie den Rabattcode <strong>SANDERVANECK</strong> für 10%
+      Rabatt!
+    </>
+  ),
+  spanish: (
+    <>
+      ¿Necesitas un termómetro de carne con app para asar con precisión?
+      Consigue el tuyo{" "}
+      <a
+        href="https://armeator.com/yllebntc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        aquí
+      </a>
+      . ¡Usa el código de descuento <strong>SANDERVANECK</strong> para un 10% de
+      descuento!
+    </>
+  ),
+  italian: (
+    <>
+      Hai bisogno di un termometro per carne con app per grigliare con
+      precisione? Prendilo{" "}
+      <a
+        href="https://armeator.com/yllebntc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        qui
+      </a>
+      . Usa il codice sconto <strong>SANDERVANECK</strong> per uno sconto del
+      10%!
+    </>
+  ),
+  french: (
+    <>
+      Besoin d’un thermomètre à viande connecté pour une cuisson précise au
+      barbecue ? Obtenez-le{" "}
+      <a
+        href="https://armeator.com/yllebntc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ici
+      </a>
+      . Utilisez le code promo <strong>SANDERVANECK</strong> pour 10% de
+      réduction !
+    </>
+  ),
+  portuguese: (
+    <>
+      Precisa de um termômetro de carne com aplicativo para grelhar com
+      precisão? Adquira o seu{" "}
+      <a
+        href="https://armeator.com/yllebntc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        aqui
+      </a>
+      . Use o código de desconto <strong>SANDERVANECK</strong> e ganhe 10% off!
+    </>
+  ),
+  dutch: (
+    <>
+      Wil je precies grillen met een slimme vleesthermometer? Bestel hem{" "}
+      <a
+        href="https://armeator.com/yllebntc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        hier
+      </a>
+      . Gebruik kortingscode <strong>SANDERVANECK</strong> en krijg 10% korting!
+    </>
+  ),
+};

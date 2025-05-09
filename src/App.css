@@ -50,3 +50,16 @@ body {
     max-width: 600px;
   }
 }
+
+.referral-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.referral-image {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+}
