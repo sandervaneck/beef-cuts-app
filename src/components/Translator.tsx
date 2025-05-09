@@ -7,6 +7,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Calorie",
       french: "Calories",
       portuguese: "Calorias",
+      dutch: "Calorieën",
     },
     proteins: {
       english: "Proteins",
@@ -15,6 +16,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Proteine",
       french: "Protéines",
       portuguese: "Proteínas",
+      dutch: "Proteine",
     },
     saturatedFats: {
       english: "Saturated Fats",
@@ -23,6 +25,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Grassi saturi",
       french: "Graisses saturées",
       portuguese: "Gorduras saturadas",
+      dutch: "Verzadigde vetten",
     },
     unsaturatedFats: {
       english: "Unsaturated Fats",
@@ -31,6 +34,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Grassi insaturi",
       french: "Graisses insaturées",
       portuguese: "Gorduras insaturadas",
+      dutch: "Onverzadigde vetten",
     },
     carbs: {
       english: "Carbs",
@@ -39,6 +43,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Carboidrati",
       french: "Glucides",
       portuguese: "Carboidratos",
+      dutch: "Koolhydraten",
     },
     preparationMethods: {
       english: "Preparation Methods",
@@ -47,6 +52,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Metodi di preparazione",
       french: "Méthodes de préparation",
       portuguese: "Métodos de preparação",
+      dutch: "Instructies",
     },
     nutritionalValue: {
       english: "Nutritional Value",
@@ -55,6 +61,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Valore nutrizionale",
       french: "Valeur nutritionnelle",
       portuguese: "Valor nutricional",
+      dutch: "Voedingswaarden",
     },
     selectABeefCut: {
       english: "Select a beef cut",
@@ -63,6 +70,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Seleziona un taglio di manzo",
       french: "Sélectionnez une coupe de bœuf",
       portuguese: "Selecione um corte de carne bovina",
+      dutch: "Kies een stuk vlees",
     },
     butcher: {
       english: "Butcher",
@@ -71,6 +79,7 @@ export const translateLabel = (label: string, language: string): string => {
       italian: "Macellaio",
       french: "Boucher",
       portuguese: "Açougueiro",
+      dutch: "Slager",
     },
     helperText: {
       english:
@@ -85,6 +94,8 @@ export const translateLabel = (label: string, language: string): string => {
         "Cliquez sur une coupe de bœuf pour découvrir sa nutrition et sa méthode de préparation",
       portuguese:
         "Clique em um corte de carne bovina para explorar seu valor nutricional e método de preparo",
+      dutch:
+        "Klik op een stuk vlees om de juiste instructies en voedingswaarden in te zien",
     },
   };
 
