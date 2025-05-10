@@ -70,3 +70,36 @@ body {
   max-width: 200px;
   height: auto;
 }
+
+.nutrition-table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.nutrition-table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 0.85rem; /* Reduce font size */
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  padding: 0.4rem; /* Less padding */
+  border-bottom: 1px solid #eee;
+  word-wrap: break-word;
+}
+
+.nutrition-table th {
+  background-color: #f44336;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+}

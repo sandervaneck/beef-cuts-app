@@ -1,6 +1,7 @@
 import React from "react";
 import { beefCuts } from "../beefcuts";
 import { translateLabel } from "./Translator";
+import BeefCutNutritionTable from "./NutritionTable";
 
 interface Props {
   selectedId: string | null;
@@ -15,29 +16,7 @@ const BeefCutInfo: React.FC<Props> = ({ selectedId, language }) => {
   return (
     <div className="cut-card">
       <h2 className="cut-name">{cut.name[language]}</h2>
-      <ul className="nutrition">
-        <h4>{translateLabel("nutritionalValue", language)}:</h4>
-        <li>
-          <strong>{translateLabel("calories", language)}:</strong>{" "}
-          {cut.nutrition.kcal} kcal
-        </li>
-        <li>
-          <strong>{translateLabel("proteins", language)}:</strong>{" "}
-          {cut.nutrition.protein} g
-        </li>
-        <li>
-          <strong>{translateLabel("saturatedFats", language)}:</strong>{" "}
-          {cut.nutrition.saturatedFats} g
-        </li>
-        <li>
-          <strong>{translateLabel("unsaturatedFats", language)}:</strong>{" "}
-          {cut.nutrition.unsaturatedFats} g
-        </li>
-        <li>
-          <strong>{translateLabel("carbs", language)}:</strong>{" "}
-          {cut.nutrition.carbs} g
-        </li>
-      </ul>
+      <BeefCutNutritionTable selectedId={selectedId} language={language} />
       <div className="prep">
         <h4>{translateLabel("preparationMethods", language)}:</h4>
         <ul>

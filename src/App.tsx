@@ -4,10 +4,10 @@ import BeefCutsMap from "./components/BeefCutsMap";
 import BeefCutInfo from "./components/BeefCutInfo";
 import { referral, translateLabel } from "./components/Translator";
 import { useSearchParams } from "react-router";
+import SteakDonenessTable from "./components/Doneness";
 
 const App: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  console.log(searchParams);
   const defaultLang = searchParams.get("lang") as
     | "english"
     | "french"
@@ -44,8 +44,10 @@ const App: React.FC = () => {
 
       <div className="cut-container">
         <h5>{translateLabel("helperText", language)}:</h5>
+
         <BeefCutsMap onCutHover={setSelectedCutId} />
         <BeefCutInfo selectedId={selectedCutId} language={language} />
+        <SteakDonenessTable language={language} />
         <div className="referral-container">
           <div className="referral-text">{referral[language]}</div>
           <img src="/Armeator.png" alt="Armeator" className="referral-image" />

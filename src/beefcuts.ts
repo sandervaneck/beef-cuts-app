@@ -61,19 +61,19 @@ export const beefCuts: BeefCut[] = [
       },
       {
         english:
-          "Frying Pan: 1. Preheat pan with oil. 2. Sear 2–4 minutes per side. 3. Rest for 3–5 minutes. Doneness: Rare: 50–52°C (122–125°F); Medium-Rare: 54–57°C (130–135°F); Medium: 60–63°C (140–145°F); Medium-Well: 65–68°C (150–155°F); Well-Done: 70°C (160+°F).",
+          "Frying Pan: 1. Preheat pan with oil. 2. Sear 2–4 minutes per side. 3. Rest for 3–5 minutes. ",
         german:
-          "Pfanne: 1. Pfanne mit Öl vorheizen. 2. 2–4 Minuten pro Seite anbraten. 3. 3–5 Minuten ruhen lassen. Garstufen: Rare: 50–52°C; Medium-Rare: 54–57°C; Medium: 60–63°C; Medium-Well: 65–68°C; Well-Done: 70°C+.",
+          "Pfanne: 1. Pfanne mit Öl vorheizen. 2. 2–4 Minuten pro Seite anbraten. 3. 3–5 Minuten ruhen lassen.",
         italian:
-          "Padella: 1. Preriscaldare la padella con olio. 2. Rosolare 2–4 minuti per lato. 3. Riposare per 3–5 minuti. Cottura: Al sangue: 50–52°C; Media al sangue: 54–57°C; Media: 60–63°C; Ben cotta: 65–68°C; Ben cotta: 70°C+.",
+          "Padella: 1. Preriscaldare la padella con olio. 2. Rosolare 2–4 minuti per lato. 3. Riposare per 3–5 minuti. ",
         french:
-          "Poêle : 1. Préchauffer la poêle avec de l'huile. 2. Saisir 2–4 minutes de chaque côté. 3. Laisser reposer 3–5 minutes. Cuisson : Saignant : 50–52°C ; À point : 54–57°C ; Moyen : 60–63°C ; Bien cuit : 65–68°C ; Très bien cuit : 70°C+.",
+          "Poêle : 1. Préchauffer la poêle avec de l'huile. 2. Saisir 2–4 minutes de chaque côté. 3. Laisser reposer 3–5 minutes. ",
         spanish:
-          "Sartén: 1. Precalentar la sartén con aceite. 2. Sellar 2–4 minutos por lado. 3. Reposar 3–5 minutos. Cocción: Poco hecho: 50–52°C; Medio poco hecho: 54–57°C; Medio: 60–63°C; Bien cocido: 65–68°C; Muy bien cocido: 70°C+.",
+          "Sartén: 1. Precalentar la sartén con aceite. 2. Sellar 2–4 minutos por lado. 3. Reposar 3–5 minutos. ",
         dutch:
-          "Koekenpan: 1. Verhit de pan met olie. 2. Schroei 2–4 minuten per kant. 3. Laat 3–5 minuten rusten. Gaarheid: Rauw: 50–52°C; Medium-Rare: 54–57°C; Medium: 60–63°C; Medium-Well: 65–68°C; Doorbakken: 70°C+.",
+          "Koekenpan: 1. Verhit de pan met olie. 2. Schroei 2–4 minuten per kant. 3. Laat 3–5 minuten rusten. ",
         portuguese:
-          "Frigideira: 1. Pré-aqueça a frigideira com óleo. 2. Sele por 2–4 minutos de cada lado. 3. Deixe descansar por 3–5 minutos. Ponto da carne: Mal passado: 50–52°C; Ao ponto para mal: 54–57°C; Ao ponto: 60–63°C; Bem passado: 65–68°C; Muito bem passado: 70°C+.",
+          "Frigideira: 1. Pré-aqueça a frigideira com óleo. 2. Sele por 2–4 minutos de cada lado. 3. Deixe descansar por 3–5 minutos. ",
       },
       {
         english:
@@ -114,35 +114,35 @@ export const beefCuts: BeefCut[] = [
     preparation: [
       {
         english:
-          "Grilling: 1. Preheat grill to high. 2. Sear 2-3 min per side. 3. Lower heat and cook to desired doneness.\nRare: 50–52°C (122–125°F)\nMedium-Rare: 54–57°C (130–135°F)\nMedium: 60–63°C (140–145°F)\nMedium-Well: 65–68°C (150–155°F)\nWell-Done: 70°C (160+°F)",
+          "Grilling: 1. Preheat grill to high. 2. Sear 2-3 min per side. 3. Lower heat and cook to desired doneness.",
         german:
-          "Grillen: 1. Grill auf hohe Hitze vorheizen. 2. 2–3 Min. pro Seite scharf anbraten. 3. Hitze reduzieren und bis zur gewünschten Garstufe weitergaren.\nRare: 50–52°C\nMedium-Rare: 54–57°C\nMedium: 60–63°C\nMedium-Well: 65–68°C\nWell-Done: 70°C+",
+          "Grillen: 1. Grill auf hohe Hitze vorheizen. 2. 2–3 Min. pro Seite scharf anbraten. 3. Hitze reduzieren und bis zur gewünschten Garstufe weitergaren.",
         italian:
-          "Griglia: 1. Preriscalda la griglia a fuoco alto. 2. Rosola 2–3 min per lato. 3. Abbassa il calore e cuoci al punto desiderato.\nAl sangue: 50–52°C\nMedia cottura: 54–57°C\nMedia: 60–63°C\nBen cotta: 70°C+",
+          "Griglia: 1. Preriscalda la griglia a fuoco alto. 2. Rosola 2–3 min per lato. 3. Abbassa il calore e cuoci al punto desiderato.",
         french:
-          "Grillade : 1. Préchauffez le gril à feu vif. 2. Saisir 2–3 min de chaque côté. 3. Réduire le feu et cuire selon la cuisson désirée.\nSaignant : 50–52°C\nÀ point : 60–63°C\nBien cuit : 70°C+",
+          "Grillade : 1. Préchauffez le gril à feu vif. 2. Saisir 2–3 min de chaque côté. 3. Réduire le feu et cuire selon la cuisson désirée.",
         spanish:
-          "A la parrilla: 1. Precalienta la parrilla a fuego alto. 2. Marca 2–3 min por lado. 3. Baja el fuego y cocina al punto deseado.\nPoco hecho: 50–52°C\nPunto medio: 60–63°C\nBien hecho: 70°C+",
+          "A la parrilla: 1. Precalienta la parrilla a fuego alto. 2. Marca 2–3 min por lado. 3. Baja el fuego y cocina al punto deseado.",
         dutch:
-          "Grillen: 1. Verhit de grill op hoge stand. 2. Schroei 2–3 minuten per kant dicht. 3. Verlaag de hitte en gaar tot de gewenste kerntemperatuur.\nRauw: 50–52°C\nMedium-Rauw: 54–57°C\nMedium: 60–63°C\nMedium-Doorbakken: 65–68°C\nDoorbakken: 70°C+",
+          "Grillen: 1. Verhit de grill op hoge stand. 2. Schroei 2–3 minuten per kant dicht. 3. Verlaag de hitte en gaar tot de gewenste kerntemperatuur.",
         portuguese:
-          "Grelhar: 1. Pré-aqueça a grelha em fogo alto. 2. Sele por 2–3 minutos de cada lado. 3. Reduza o fogo e cozinhe até o ponto desejado.\nMal passado: 50–52°C\nAo ponto para mal passado: 54–57°C\nAo ponto: 60–63°C\nBem passado: 70°C+",
+          "Grelhar: 1. Pré-aqueça a grelha em fogo alto. 2. Sele por 2–3 minutos de cada lado. 3. Reduza o fogo e cozinhe até o ponto desejado.",
       },
       {
         english:
-          "Frying pan: 1. Preheat pan with oil. 2. Sear 2–4 minutes per side. 3. Rest 3–5 minutes.\nRare: 50–52°C\nMedium-Rare: 54–57°C\nMedium: 60–63°C\nMedium-Well: 65–68°C\nWell-Done: 70°C+",
+          "Frying pan: 1. Preheat pan with oil. 2. Sear 2–4 minutes per side. 3. Rest 3–5 minutes.",
         german:
-          "Pfanne: 1. Pfanne mit Öl erhitzen. 2. 2–4 Minuten pro Seite anbraten. 3. 3–5 Minuten ruhen lassen.\nRare: 50–52°C\nMedium-Rare: 54–57°C\nMedium: 60–63°C\nMedium-Well: 65–68°C\nWell-Done: 70°C+",
+          "Pfanne: 1. Pfanne mit Öl erhitzen. 2. 2–4 Minuten pro Seite anbraten. 3. 3–5 Minuten ruhen lassen.",
         italian:
-          "Padella: 1. Scalda la padella con olio. 2. Cuoci 2–4 minuti per lato. 3. Lascia riposare 3–5 minuti.\nAl sangue: 50–52°C\nMedia cottura: 54–57°C\nBen cotta: 70°C+",
+          "Padella: 1. Scalda la padella con olio. 2. Cuoci 2–4 minuti per lato. 3. Lascia riposare 3–5 minuti.",
         french:
-          "Poêle : 1. Chauffer la poêle avec un peu d’huile. 2. Saisir 2–4 min de chaque côté. 3. Laisser reposer 3–5 min.\nSaignant : 50–52°C\nÀ point : 60–63°C\nBien cuit : 70°C+",
+          "Poêle : 1. Chauffer la poêle avec un peu d’huile. 2. Saisir 2–4 min de chaque côté. 3. Laisser reposer 3–5 min.",
         spanish:
-          "Sartén: 1. Calienta la sartén con aceite. 2. Cocina 2–4 min por lado. 3. Reposa 3–5 min.\nPoco hecho: 50–52°C\nMedio: 60–63°C\nBien hecho: 70°C+",
+          "Sartén: 1. Calienta la sartén con aceite. 2. Cocina 2–4 min por lado. 3. Reposa 3–5 min.",
         dutch:
-          "Pan: 1. Verhit een pan met olie. 2. Bak 2–4 minuten per kant. 3. Laat 3–5 minuten rusten.\nRauw: 50–52°C\nMedium-Rauw: 54–57°C\nMedium: 60–63°C\nMedium-Doorbakken: 65–68°C\nDoorbakken: 70°C+",
+          "Pan: 1. Verhit een pan met olie. 2. Bak 2–4 minuten per kant. 3. Laat 3–5 minuten rusten.",
         portuguese:
-          "Frigideira: 1. Aqueça a frigideira com óleo. 2. Sele por 2–4 minutos de cada lado. 3. Deixe descansar por 3–5 minutos.\nMal passado: 50–52°C\nAo ponto para mal passado: 54–57°C\nAo ponto: 60–63°C\nBem passado: 70°C+",
+          "Frigideira: 1. Aqueça a frigideira com óleo. 2. Sele por 2–4 minutos de cada lado. 3. Deixe descansar por 3–5 minutos.",
       },
       {
         english:
@@ -284,23 +284,23 @@ export const beefCuts: BeefCut[] = [
       },
       {
         english:
-          "Frying Pan: 1. Sear 2–3 min per side in very hot pan. 2. Baste with butter and herbs. 3. Rest 5 minutes. Doneness: Rare: 48–50°C; Medium-Rare: 52–55°C; Medium: 57–60°C.",
+          "Frying Pan: 1. Sear 2–3 min per side in very hot pan. 2. Baste with butter and herbs. 3. Rest 5 minutes.",
         german:
-          "Pfanne: 1. 2–3 Min. pro Seite bei hoher Hitze anbraten. 2. Mit Butter und Kräutern begießen. 3. 5 Min. ruhen lassen. Garstufen: Rare: 48–50°C; Medium-Rare: 52–55°C; Medium: 57–60°C.",
+          "Pfanne: 1. 2–3 Min. pro Seite bei hoher Hitze anbraten. 2. Mit Butter und Kräutern begießen. 3. 5 Min. ruhen lassen.",
         italian:
-          "Padella: 1. 2–3 min per lato in padella molto calda. 2. Irrorare con burro ed erbe. 3. Riposare 5 min. Cottura: Al sangue: 48–50°C; Media: 57–60°C.",
+          "Padella: 1. 2–3 min per lato in padella molto calda. 2. Irrorare con burro ed erbe. 3. Riposare 5 min.",
         french:
-          "Poêle : 1. 2–3 min par côté à feu vif. 2. Arroser de beurre et herbes. 3. Repos 5 min. Cuisson : Saignant : 48–50°C ; À point : 57–60°C.",
+          "Poêle : 1. 2–3 min par côté à feu vif. 2. Arroser de beurre et herbes. 3. Repos 5 min.",
         spanish:
-          "Sartén: 1. Sellar 2–3 min por lado a fuego alto. 2. Regar con mantequilla y hierbas. 3. Reposar 5 min. Término: Poco hecho: 48–50°C; Medio: 57–60°C.",
+          "Sartén: 1. Sellar 2–3 min por lado a fuego alto. 2. Regar con mantequilla y hierbas. 3. Reposar 5 min. ",
         dutch:
-          "Koekenpan: 1. Schroei 2–3 min per kant in een zeer hete pan. 2. Bedruip met boter en kruiden. 3. Laat 5 min rusten. Gaarheid: Rauw: 48–50°C; Medium-rare: 52–55°C; Medium: 57–60°C.",
+          "Koekenpan: 1. Schroei 2–3 min per kant in een zeer hete pan. 2. Bedruip met boter en kruiden. 3. Laat 5 min rusten. ",
         portuguese:
-          "Frigideira: 1. Sele por 2–3 min de cada lado em panela bem quente. 2. Regue com manteiga e ervas. 3. Deixe descansar 5 min. Pontos: Malpassado: 48–50°C; Ao ponto para malpassado: 52–55°C; Ao ponto: 57–60°C.",
+          "Frigideira: 1. Sele por 2–3 min de cada lado em panela bem quente. 2. Regue com manteiga e ervas. 3. Deixe descansar 5 min. ",
       },
       {
         english:
-          "Grill: 1. Preheat grill high. 2. Grill 2–3 min per side. 3. Baste with butter. 4. Let rest. Doneness: Rare: 48–50°C; Medium-Rare: 52–55°C; Medium: 57–60°C.",
+          "Grill: 1. Preheat grill high. 2. Grill 2–3 min per side. 3. Baste with butter. 4. Let rest",
         german:
           "Grill: 1. Grill stark vorheizen. 2. 2–3 Min. pro Seite grillen. 3. Mit Butter bestreichen. 4. Ruhen lassen. Garstufen wie oben.",
         italian:
