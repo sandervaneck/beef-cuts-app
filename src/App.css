@@ -51,15 +51,22 @@ body {
   }
 }
 
-.referral-text {
-  margin-top: 1rem;
+.referral-container {
+  margin-top: 6rem;
+  padding: 1.5rem;
+  border-top: 2px dashed #ccc;
+  background-color: #fffbea;
+  border-radius: 8px;
   text-align: center;
-  font-size: 0.95rem;
+}
+
+.referral-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
 }
 
 .referral-image {
-  display: block;
-  margin: 1rem auto;
-  max-width: 100%;
+  max-width: 200px;
   height: auto;
 }

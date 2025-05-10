@@ -46,8 +46,10 @@ const App: React.FC = () => {
         <h5>{translateLabel("helperText", language)}:</h5>
         <BeefCutsMap onCutHover={setSelectedCutId} />
         <BeefCutInfo selectedId={selectedCutId} language={language} />
-        <div className="referral-text">{referral[language]}</div>
-        <img src="/Armeator.png" alt="Armeator" className="referral-image" />
+        <div className="referral-container">
+          <div className="referral-text">{referral[language]}</div>
+          <img src="/Armeator.png" alt="Armeator" className="referral-image" />
+        </div>
       </div>
     </div>
   );
