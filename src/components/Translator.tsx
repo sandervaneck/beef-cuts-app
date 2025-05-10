@@ -160,6 +160,15 @@ export const translateLabel = (label: string, language: string): string => {
       dutch: "Well-Done",
       portuguese: "Bem passado",
     },
+    chooser: {
+      english: "Choose your beef cut!",
+      german: "Wähle deinen Rindfleischschnitt!",
+      french: "Choisissez votre morceau de bœuf !",
+      italian: "Scegli il tuo taglio!",
+      spanish: "¡Escoge tu corte!",
+      dutch: "Kies je rundstuk!",
+      portuguese: "Escolha o seu corte de carne!",
+    },
   };
 
   return (
