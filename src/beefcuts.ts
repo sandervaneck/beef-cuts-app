@@ -183,11 +183,11 @@ export const beefCuts: BeefCut[] = [
     name: {
       english: "Short Sirloin",
       german: "Hüftsteak",
-      italian: "Fesa",
+      italian: "Scamone",
       french: "Rumsteck",
-      spanish: "Bistec de cadera",
+      spanish: "Solomillo corto",
       dutch: "Kogelbiefstuk",
-      portuguese: "Ponta do filé mignon",
+      portuguese: "Alcatra Curta",
     },
     nutrition: {
       kcal: 190,

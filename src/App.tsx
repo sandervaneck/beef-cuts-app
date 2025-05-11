@@ -48,10 +48,16 @@ const App: React.FC = () => {
         <BeefCutsMap onCutHover={setSelectedCutId} />
         <BeefCutInfo selectedId={selectedCutId} language={language} />
         <SteakDonenessTable language={language} />
-        <div className="referral-container">
+        <a
+          href="https://armeator.com/yllebntc"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="referral-container"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
           <div className="referral-text">{referral[language]}</div>
           <img src="/Armeator.png" alt="Armeator" className="referral-image" />
-        </div>
+        </a>
       </div>
     </div>
   );

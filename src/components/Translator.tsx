@@ -75,8 +75,8 @@ export const translateLabel = (label: string, language: string): string => {
     butcher: {
       english: "Butcher",
       german: "Metzger",
-      spanish: "Carnicero",
-      italian: "Macellaio",
+      spanish: "Carniceria",
+      italian: "Macelleria",
       french: "Boucher",
       portuguese: "Açougueiro",
       dutch: "Slager",
@@ -180,15 +180,8 @@ export const referral: Record<string, React.ReactNode> = {
   english: (
     <>
       Need a meat thermometer with a phone app for precision while grilling? Get
-      yours{" "}
-      <a
-        href="https://armeator.com/yllebntc"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        here
-      </a>
-      . Use discount code <strong>SANDERVANECK</strong> now for a 10% discount!
+      yours. <br />
+      Use discount code <strong>SANDERVANECK</strong> now for a 10% discount!
     </>
   ),
   german: (
