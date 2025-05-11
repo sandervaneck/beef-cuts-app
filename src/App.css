@@ -103,3 +103,29 @@ body {
   font-weight: 600;
   font-size: 0.8rem;
 }
+
+.footer {
+  border-top: dashed #ccc;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #d32f2f;
+  color: white;
+  text-align: left;
+  font-size: 0.9rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-contact p {
+  margin: 0.3rem 0;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}

@@ -59,6 +59,55 @@ const App: React.FC = () => {
           <img src="/Armeator.png" alt="Armeator" className="referral-image" />
         </a>
       </div>
+      <footer className="footer">
+        <p className="footer-title">
+          Looking for software for your gastronomy?
+        </p>
+        <div className="footer-contact">
+          <p>Sander van Eck</p>
+          <p>📞 +41 78 445 36 34</p>
+          <p>
+            📧{" "}
+            <a href="mailto:sander@mychefsbase.com">sander@mychefsbase.com</a>
+          </p>
+          <p>
+            🌐{" "}
+            <a
+              href="https://www.mychefsbase.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              mychefsbase.com
+            </a>
+            {" | "}
+            <a
+              href="https://www.techvaneck.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              techvaneck.com
+            </a>
+            {" | "}
+            <a
+              href="https://www.swipingchef.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              swipingchef.com
+            </a>
+          </p>
+        </div>
+        <p className="footer-copyright">
+          © {new Date().getFullYear()}{" "}
+          <a
+            href="https://www.techvaneck.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TechVanEck
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };
