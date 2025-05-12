@@ -104,324 +104,162 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         style={{ display: "inline" }}
         transform="translate(-7.6941642,10.065285)"
       >
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="1"
           d="m 415.0625,28.75 -47.375,13.71875 -39.75,8.625 13.875,77.6875 7.59375,-14.96875 4.5,-3 c 0,0 0.0602,0.27071 0.0625,0.28125 l 11.9375,-10.28125 17.5,-6 16,-1 0,-0.5 23,15.5 3.53125,5.21875 2.875,-1.53125 -13.75,-83.75 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray={"none"}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("1")}
-          onMouseLeave={() => onCutHover(null)}
         />
-        <path
-          fill="#ca1a23"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray={"none"}
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
+          id="16"
           d="m 332.28125,147.625 -61.375,3.875 0,0.125 -35.34375,1.96875 1.28125,49.40625 0.40625,-1.25 95.9375,-9.40625 -0.28125,-0.53125 -2,-41.5 1.375,-2.6875 z m 0.90625,44.71875 7.15625,13.3125 0.0312,0 -7.1875,-13.3125 z"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          id="16"
-          onMouseEnter={() => onCutHover("16")}
-          onMouseLeave={() => onCutHover(null)}
         />
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="22"
           d="m 79.1875,42.625 -28.28125,0.71875 -16.25,7.0625 -19.09375,26.875 -5.65625,26.84375 -0.84375,105.25 10.03125,-0.28125 2.125,-108.5 3.34375,-7.9375 -0.15625,-0.0625 c 0.127935,-0.148353 0.252038,-0.334229 0.375,-0.5 l 4.625,-10.90625 c 1.160782,-3.331585 2.453475,-6.881357 4.25,-10.15625 l 1.6875,-4 1.21875,-0.3125 c 3.89521,-4.622798 9.81761,-8.067743 12.75,-9.5625 L 73.5,44.84375 l 3.5625,0 2.125,-2.21875 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1}
-          strokeLinecap="square"
-          strokeLinejoin="bevel"
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
-          strokeDashoffset={0}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("22")}
-          onMouseLeave={() => onCutHover(null)}
         />
-
-        <path
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="29"
           d="m 536.375,106.46875 c 5.2885,14.34201 10.52945,33.1769 13.78125,43.21875 -0.0655,0.0771 -0.13181,0.1476 -0.21875,0.21875 l 16.5625,0.9375 10.5,-8.5 11,-17 -13.5,-18 -38.125,-0.875 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1}
-          strokeLinecap="square"
-          strokeLinejoin="bevel"
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
-          strokeDashoffset={0}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("29")}
-          onMouseLeave={() => onCutHover(null)}
         />
-
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="28"
           d="m 479.875,78.9375 c 0.34134,7.189091 0.93966,14.327462 3.25,20.84375 7.5898,21.40693 18.02765,40.11508 34.125,55.21875 -5.6799,1.95428 -9.21826,3.15884 -11.875,4.09375 0.41224,0.77565 1.5132,2.80766 1.625,3.03125 0.81585,1.6317 7.32508,-4.6998 16.75,-8.25 6.91248,-2.6038 24.01189,-1.36903 26.40625,-4.1875 C 545.49285,135.28652 536.7499,102.74928 529.625,91.40625 520.34937,82.635259 489.68249,79.683068 479.875,78.9375 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1}
-          strokeLinecap="square"
-          strokeLinejoin="bevel"
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
-          strokeDashoffset={0}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("28")}
-          onMouseLeave={() => onCutHover(null)}
         />
 
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="26"
           d="m 440.65625,154.65625 -2.75,28.9375 -6.21875,29.1875 -14.5,44.46875 0.1875,0.40625 52.625,-40.125 6.84375,-19.21875 6.875,-19.21875 -43.0625,-24.4375 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("26")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="20"
           d="m 403.4375,178.4375 c 0.59794,9.14065 1.66243,26.69593 1.40625,35.40625 -0.35075,11.92572 -5.91156,48.05129 -6,48.625 l 16.25,1.21875 16.59375,-50.90625 6.21875,-29.1875 -34.46875,-5.15625 z"
-          fill="#ca1a23"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("20")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-        <path
+          />
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="13"
           d="m 156.1875,131.0625 -14.625,35.6875 c 5.95264,-0.95128 15.8535,-3.03977 25.15625,-7.375 11.81307,-5.50507 21.05604,-14.70831 24.1875,-18.0625 l -34.71875,-10.25 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("13")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
-          id="10"
+          />
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
+          id=="10"
           d="M 107.59375,176.90625 73.125,234.8125 l 0,-0.25 c -0.447624,-0.0734 -0.893563,-0.14307 -1.34375,-0.21875 l 1.21875,0.5 29.625,6.3125 14.5625,-13.59375 13.78125,-41.75 -2.125,-0.9375 -0.25,3.03125 -21,-11 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.57163215}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("10")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="9"
           d="m 77.125,161 -4,73.8125 34.46875,-57.90625 L 77.125,161 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("9")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="8"
           d="m 53.25,148.5 -3.59375,85.53125 c 6.375944,-0.54133 14.376253,-0.84866 21.03125,0.125 0.800411,0.1171 1.646727,0.27182 2.46875,0.40625 L 77.125,161 53.25,148.5 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("8")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="11"
           d="m 166.875,179.09375 c -12.90655,4.07201 -25.86151,4.69065 -32.28125,4.71875 l 0.3125,-0.71875 c -1.19261,0.41897 -2.31436,0.77389 -3.34375,1.0625 l -15.8125,40.6875 9.59375,-1.125 29.875,5.15625 0.375,-1.59375 -6.3125,-1.625 c 4.80586,-9.61768 8.90823,-21.39006 12.46875,-31.5625 0.24202,-0.0174 0.84371,0.0181 1.59375,0.0625 l 3.53125,-15.0625 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("11")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="7"
           d="M 55.21875,101.71875 53.25,148.5 l 75.34375,39.40625 2.09375,-24.9375 -18.75,-44.65625 -8.5625,-2.375 -48.15625,-14.21875 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("7")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="6"
           d="m 24.40625,87.78125 c 0.686546,-0.686546 -6.845657,32.94323 -8.21875,37.0625 -1.373093,4.11928 4.125,54.9375 4.125,54.9375 l 23.348034,52.86888 c 1.699532,-0.25714 1.272678,1.78212 5.995716,1.38112 l 5.5625,-132.3125 -30.8125,-9.125 c 0.921559,-1.068635 1.719003,-2.609605 2.46875,-4.4375 l -2.46875,-0.375 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
-          strokeMiterlimit={4}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("6")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="15"
           d="m 197.46875,143.21875 -0.0312,0.0312 12.4375,3.65625 c -6.27553,7.51855 -19.88541,22.3419 -34.78125,29.0625 -2.93602,1.32466 -5.9563,2.39218 -8.96875,3.3125 -1.6212,4.92001 -3.16599,9.85551 -4.21875,14.6875 l 0.0937,0.125 c 4.33147,-0.0728 51.72357,5.08183 74.8125,7.625 l -1.25,-48.5625 c -1.31681,0.99046 -2.72856,0.2336 -3.8125,0.1875 l -34.28125,-10.125 z"
-          fill="#ca1a23"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("15")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="24"
           d="m 161.75,194.09375 c -3.56052,10.17244 -7.66289,21.94482 -12.46875,31.5625 l 42,10.90625 16.65625,11 13.03125,3.75 16.28125,-49.53125 c -23.2719,-2.5639 -72.34505,-7.91499 -75.5,-7.6875 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("24")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="12"
           d="m 190.90625,141.3125 c -3.13146,3.35419 -12.37443,12.55743 -24.1875,18.0625 -9.30275,4.33523 -19.20361,6.42372 -25.15625,7.375 l -6.96875,17.0625 c 7.79394,-0.0341 25.22337,-0.95133 40.5,-7.84375 14.89584,-6.7206 28.50572,-21.54395 34.78125,-29.0625 l -18.96875,-5.59375 z m -59.25,38.9375 -1.21875,3.5 c 0,0 0.78497,0.008 1.875,0.0312 l -0.65625,-3.5312 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("12")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-        <path
+          />
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="25"
           d="M 333.1875,192.34375 237.25,201.75 l -17.15625,52.1875 8.21875,-2.0625 19.9375,-10.3125 43.9375,6.1875 43.9375,3.4375 34.65625,10.59375 -15.5625,-38.40625 c -0.76359,4.54074 -1.3125,7.4375 -1.3125,7.4375 L 333.1875,192.34375 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("25")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="21"
           d="m 402.65625,172.46875 0.25,5.84375 -41.78125,-2.5 c -1.29655,22.38348 -6.65767,51.91795 -7.0625,54.125 6.10976,11.04667 16.1653,28.89803 17.875,29.875 2.47486,1.41422 26.875,2.84375 26.875,2.84375 0,0 5.6777,-36.79168 6.03125,-48.8125 C 405.1973,201.82293 403.0625,172.5 403.0625,172.5 l -0.40625,-0.0312 z"
-          fill="#ca1a23"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("21")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="5"
           d="m 73.5,44.84375 -24.1875,12.3125 c -3.305722,1.68506 -10.415962,5.834465 -14.125,11.375 -5.588491,8.34805 -7.13581,19.835267 -10.78125,24.0625 l 78.96875,23.34375 8.125,2.25 -0.21875,-0.5 9.9375,2.8125 c -1.19731,-1.17814 -4.8182,-5.38442 -2.84375,-11.78125 2.34225,-7.58844 9.21875,-7.15625 9.21875,-7.15625 l 93.75,26.625 -7.4375,-77.40625 -68.59375,-5.6875 -71.8125,-0.25 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("5")}
-          onMouseLeave={() => onCutHover(null)}
-        />
-
-        <path
+          />
+<PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="3"
           d="m 213.96875,51.3125 7.375,76.875 13.53125,3.84375 c 0.7433,0.79846 5.22353,0.84372 3.6875,12.5 -0.95757,7.26656 -2.57691,8.92417 -4.15625,9.125 l 36.5,-2.03125 0,-0.125 -1.71875,0.125 c 0,0 3.3549,-34.84028 3.625,-54.21875 0.2636,-18.912526 -2.91959,-40.815326 -3.1875,-42.625 L 213.96875,51.3125 z m 19.78125,102.34375 0.0625,0.0312 0.5625,-0.0312 c -0.21023,0.0242 -0.41797,0.0167 -0.625,0 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("3")}
-          onMouseLeave={() => onCutHover(null)}
-        />
+          />
 
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="2"
           d="M 327.875,50.71875 269.53125,54.125 c 0,0 3.55613,23.559578 3.28125,43.28125 -0.2701,19.37847 -3.625,54.21875 -3.625,54.21875 l 63.09375,-4 9.53125,-18.84375 -13.9375,-78.0625 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("2")}
-          onMouseLeave={() => onCutHover(null)}
-        />
+          />
         <PathForId
           onCutHover={onCutHover}
           selectedCutId={selectedCutId}
