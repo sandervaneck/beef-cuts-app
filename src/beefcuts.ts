@@ -749,13 +749,13 @@ export const beefCuts: BeefCut[] = [
   {
     id: "11",
     name: {
-      english: "Rump Steak",
-      german: "Rumpsteak",
-      italian: "Scamone",
-      french: "Rumsteck",
-      spanish: "Cuadril",
-      dutch: "Achterblilbiefstuk",
-      portuguese: "Coxão duro",
+      english: "Flap Steak",
+      german: "Bauchlappen",
+      italian: "Taglio reale della pancia",
+      french: "Bavette d'aloyau",
+      spanish: "Vacio",
+      dutch: "Vangstuk",
+      portuguese: "Vazio",
     },
     nutrition: {
       kcal: 210,
@@ -821,7 +821,7 @@ export const beefCuts: BeefCut[] = [
       english: "Skirt Steak",
       german: "Leistenfleisch",
       italian: "Lombatello",
-      french: "Hampe",
+      french: "Onglet",
       spanish: "Entraña fina",
       dutch: "Onglet",
       portuguese: "Fraldinha fina",
@@ -1025,13 +1025,13 @@ export const beefCuts: BeefCut[] = [
   {
     id: "15",
     name: {
-      english: "Flap Steak",
-      german: "Bauchlappensteak",
-      italian: "Bavetta",
+      english: "Flank Steak",
+      german: "Flanke",
+      italian: "Scamone basso",
       french: "Bavette de flanchet",
       spanish: "Falda interna",
-      dutch: "Dunne vang",
-      portuguese: "Bavette",
+      dutch: "Vinkenlap",
+      portuguese: "Falda fina",
     },
     nutrition: {
       kcal: 190,
@@ -1094,13 +1094,13 @@ export const beefCuts: BeefCut[] = [
   {
     id: "16",
     name: {
-      english: "Short Plate",
-      german: "Bauchlappen",
-      italian: "Pancia",
+      english: "Short Ribs",
+      german: "Querrippe",
+      italian: "Costine",
       french: "Plat de côtes",
-      spanish: "Falda",
-      dutch: "Buiklap",
-      portuguese: "Fralda inferior",
+      spanish: "Costillas cortas",
+      dutch: "Ribstuk",
+      portuguese: "Entrecosto",
     },
     nutrition: {
       kcal: 300,
@@ -1611,13 +1611,13 @@ export const beefCuts: BeefCut[] = [
   {
     id: "24",
     name: {
-      english: "Flank Steak",
-      german: "Bauchlappen",
-      italian: "Fianchetto",
+      english: "Flank section",
+      german: "Flankenteil",
+      italian: "Fianco intero",
       french: "Flanchet",
-      spanish: "Falda",
-      dutch: "Vinkenlap",
-      portuguese: "Fraldinha",
+      spanish: "Falda entera",
+      dutch: "Buiklap",
+      portuguese: "Vazio inteiro",
     },
     nutrition: {
       kcal: 192,
