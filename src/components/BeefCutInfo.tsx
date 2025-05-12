@@ -9,7 +9,7 @@ interface Props {
 }
 
 const BeefCutInfo: React.FC<Props> = ({ selectedCutId, language }) => {
-  const cut = beefCuts.find((c) => c.id === selectedId);
+  const cut = beefCuts.find((c) => c.id === selectedCutId);
 
   if (!cut) return <div>{translateLabel("selectABeefCut", language)}</div>;
 
