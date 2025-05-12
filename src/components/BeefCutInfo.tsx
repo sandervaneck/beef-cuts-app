@@ -4,11 +4,11 @@ import { translateLabel } from "./Translator";
 import BeefCutNutritionTable from "./NutritionTable";
 
 interface Props {
-  selectedId: string | null;
+  selectedCutId: string | null;
   language: "english" | "french" | "italian" | "spanish" | "german";
 }
 
-const BeefCutInfo: React.FC<Props> = ({ selectedId, language }) => {
+const BeefCutInfo: React.FC<Props> = ({ selectedCutId, language }) => {
   const cut = beefCuts.find((c) => c.id === selectedId);
 
   if (!cut) return <div>{translateLabel("selectABeefCut", language)}</div>;
@@ -16,7 +16,7 @@ const BeefCutInfo: React.FC<Props> = ({ selectedId, language }) => {
   return (
     <div className="cut-card">
       <h2 className="cut-name">{cut.name[language]}</h2>
-      <BeefCutNutritionTable selectedId={selectedId} language={language} />
+      <BeefCutNutritionTable selectedId={selectedCutId} language={language} />
       <div className="prep">
         <h4>{translateLabel("preparationMethods", language)}:</h4>
         <ul>
