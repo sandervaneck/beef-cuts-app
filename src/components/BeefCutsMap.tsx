@@ -479,7 +479,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         />
 
         <PathForId
-          selectedid={selectedCutId}
+          selectedCutId={selectedCutId}
           id="17"
           d="m 353.90625,110.8125 -4.5,3 -7.59375,14.96875 -9.53125,18.84375 -1.375,2.6875 2,41.5 21,39 c 0,0 7.5,-40.50001 7.5,-63.5 0,-23 -7.5,-56.5 -7.5,-56.5 z"       
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
