@@ -135,7 +135,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <path
           id="22"
           d="m 79.1875,42.625 -28.28125,0.71875 -16.25,7.0625 -19.09375,26.875 -5.65625,26.84375 -0.84375,105.25 10.03125,-0.28125 2.125,-108.5 3.34375,-7.9375 -0.15625,-0.0625 c 0.127935,-0.148353 0.252038,-0.334229 0.375,-0.5 l 4.625,-10.90625 c 1.160782,-3.331585 2.453475,-6.881357 4.25,-10.15625 l 1.6875,-4 1.21875,-0.3125 c 3.89521,-4.622798 9.81761,-8.067743 12.75,-9.5625 L 73.5,44.84375 l 3.5625,0 2.125,-2.21875 z"
-          fill="#921319"
+          fill="#f51633"
           fillOpacity={1}
           stroke="#000000"
           strokeWidth={1}
@@ -153,7 +153,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <path
           id="29"
           d="m 536.375,106.46875 c 5.2885,14.34201 10.52945,33.1769 13.78125,43.21875 -0.0655,0.0771 -0.13181,0.1476 -0.21875,0.21875 l 16.5625,0.9375 10.5,-8.5 11,-17 -13.5,-18 -38.125,-0.875 z"
-          fill="#921319"
+          fill="#f51633"
           fillOpacity={1}
           stroke="#000000"
           strokeWidth={1}
@@ -171,7 +171,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <path
           id="28"
           d="m 479.875,78.9375 c 0.34134,7.189091 0.93966,14.327462 3.25,20.84375 7.5898,21.40693 18.02765,40.11508 34.125,55.21875 -5.6799,1.95428 -9.21826,3.15884 -11.875,4.09375 0.41224,0.77565 1.5132,2.80766 1.625,3.03125 0.81585,1.6317 7.32508,-4.6998 16.75,-8.25 6.91248,-2.6038 24.01189,-1.36903 26.40625,-4.1875 C 545.49285,135.28652 536.7499,102.74928 529.625,91.40625 520.34937,82.635259 489.68249,79.683068 479.875,78.9375 z"
-          fill="#921319"
+          fill="#f51633"
           fillOpacity={1}
           stroke="#000000"
           strokeWidth={1}
@@ -189,7 +189,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <path
           id="26"
           d="m 440.65625,154.65625 -2.75,28.9375 -6.21875,29.1875 -14.5,44.46875 0.1875,0.40625 52.625,-40.125 6.84375,-19.21875 6.875,-19.21875 -43.0625,-24.4375 z"
-          fill="#921319"
+          fill="#f51633"
           fillOpacity={1}
           stroke="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
@@ -326,7 +326,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <path
           id="24"
           d="m 161.75,194.09375 c -3.56052,10.17244 -7.66289,21.94482 -12.46875,31.5625 l 42,10.90625 16.65625,11 13.03125,3.75 16.28125,-49.53125 c -23.2719,-2.5639 -72.34505,-7.91499 -75.5,-7.6875 z"
-          fill="#921319"
+          fill="#f51633"
           fillOpacity={1}
           stroke="#000000"
           strokeWidth={1.00000012}
@@ -355,7 +355,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <path
           id="25"
           d="M 333.1875,192.34375 237.25,201.75 l -17.15625,52.1875 8.21875,-2.0625 19.9375,-10.3125 43.9375,6.1875 43.9375,3.4375 34.65625,10.59375 -15.5625,-38.40625 c -0.76359,4.54074 -1.3125,7.4375 -1.3125,7.4375 L 333.1875,192.34375 z"
-          fill="#921319"
+          fill="#f51633"
           fillOpacity={1}
           stroke="#000000"
           strokeWidth={1.00000012}
@@ -440,7 +440,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <path
           id="27"
           d="m 407.875,29.53125 c -1.42018,0 -2.18247,0.766989 -2.5,2.03125 l 7,-2.03125 -4.5,0 z m 7.3125,0 13.625,82.96875 -2.875,1.53125 15.46875,22.78125 -0.78125,17.84375 42.75,24.25 c 2.01507,-3.36624 4.02891,-7.53698 5.71875,-8.75 C 504.9844,158.74942 490.32213,164.26507 517.25,155 501.15265,139.89633 490.7148,121.18818 483.125,99.78125 476.39431,80.797444 484.28286,56.529564 470.21875,41.1875 461.0857,31.224569 452.45314,29.53125 438.9375,29.53125 l -23.75,0 z"
-          fill="#921319"
+          fill="#f51633"
           fillOpacity={1}
           stroke="#000000"
           strokeWidth={1.00000012}
@@ -478,57 +478,29 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
           onMouseLeave={() => onCutHover(null)}
         />
 
-        <path
+        <PathForId
+          selectedid={selectedCutId}
           id="17"
-          d="m 353.90625,110.8125 -4.5,3 -7.59375,14.96875 -9.53125,18.84375 -1.375,2.6875 2,41.5 21,39 c 0,0 7.5,-40.50001 7.5,-63.5 0,-23 -7.5,-56.5 -7.5,-56.5 z"
-          fill="#ca1a23"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
+          d="m 353.90625,110.8125 -4.5,3 -7.59375,14.96875 -9.53125,18.84375 -1.375,2.6875 2,41.5 21,39 c 0,0 7.5,-40.50001 7.5,-63.5 0,-23 -7.5,-56.5 -7.5,-56.5 z"       
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("17")}
-          onMouseLeave={() => onCutHover(null)}
         />
 
-        <path
+        <PathForId
+          selectedid={selectedCutId}
           id="23"
           d="m 32.151771,139.69312 c 0,0 12.009707,-2.01241 20.518057,-0.7676 8.508351,1.24481 19.328748,4.16539 19.328748,4.16539 l -5.251127,12.3556 -0.503585,7.68855 -17.632543,1.31475 -24.1818,-4.06106 7.72225,-20.69563 z"
-          fill={selectedCutId === "23" ? "#FF6A13" : "#921319"}
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={0.63628125}
-          strokeOpacity={1}
-          onMouseEnter={() => onCutHover("23")}
-          onMouseLeave={() => onCutHover(null)}
         />
 
-        <path
+        <PathForId
+          selectedCutId={selectedCutId}
           id="14"
           d="M 78.492793,64.81814 88.268592,87.383739 92.3384,109.31647 107.23839,72.916162 78.492793,64.81814 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={0.63628125}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
-          onMouseEnter={() => onCutHover("14")}
-          onMouseLeave={() => onCutHover(null)}
         />
 
-        <path
+        <PathForId
           id="4"
           d="m 88.876733,54.5548 68.265287,19.389246 c 0.47295,0.508044 3.31951,0.529702 2.34216,7.946374 -0.97485,7.39772 -3.02579,5.660785 -4.3298,5.60533 L 85.080248,66.843606 c 0,0 -3.552471,-2.909272 -2.06214,-7.737655 1.490332,-4.828382 5.858625,-4.551151 5.858625,-4.551151 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={0.63628125}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
-          onMouseEnter={() => onCutHover("4")}
-          onMouseLeave={() => onCutHover(null)}
+          selectedCutId={selectedCutId}
         />
       </g>
       <g
@@ -569,5 +541,30 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
     </svg>
   );
 };
+
+interface PathProps {
+  id: string => void;
+  d: string | null;
+  transform?: string;
+  selectedCutId: string | null;
+  
+}
+const PathForId: React.FC<PathProps> = ({id, d, transform, selectedCutId}) => {
+  return <path
+          id={id}
+          d={d}
+          fill={selectedCutId===id ? "#FF6A13" : "#f51633"}
+          fillOpacity={1}
+          transform={transform}
+          stroke="#000000"
+          strokeWidth={1.00000012}
+          strokeMiterlimit={4}
+          strokeOpacity={1}
+          strokeDasharray="none"
+          transform={transform}
+          onMouseEnter={() => onCutHover(id)}
+          onMouseLeave={() => onCutHover(null)}
+        />
+}
 
 export default BeefCutsMap;
