@@ -4,7 +4,7 @@ interface Props {
   onCutHover: (cutId: string | null) => void;
 }
 
-const BeefCutsMap: React.FC<Props> = ({ onCutHover }) => {
+const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
   return (
     <svg
       style={{ width: "200%", height: "auto" }}
@@ -493,7 +493,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover }) => {
         <path
           id="23"
           d="m 32.151771,139.69312 c 0,0 12.009707,-2.01241 20.518057,-0.7676 8.508351,1.24481 19.328748,4.16539 19.328748,4.16539 l -5.251127,12.3556 -0.503585,7.68855 -17.632543,1.31475 -24.1818,-4.06106 7.72225,-20.69563 z"
-          fill="#921319"
+          fill={selectedCutId === "23" ? "#FF6A13" : "#921319"}
           fillOpacity={1}
           stroke="#000000"
           strokeWidth={0.63628125}
