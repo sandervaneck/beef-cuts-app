@@ -2,6 +2,7 @@ import React from "react";
 
 interface Props {
   onCutHover: (cutId: string | null) => void;
+  selectedCutId: string | null;
 }
 
 const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
