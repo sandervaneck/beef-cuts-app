@@ -544,7 +544,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
 
 interface PathProps {
   id: string;
-  d: string | null;
+  d: string;
   transform?: string;
   selectedCutId: string | null;
   
