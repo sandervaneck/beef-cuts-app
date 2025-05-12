@@ -46,7 +46,7 @@ const App: React.FC = () => {
         <h4>{translateLabel("chooser", language)}</h4>
 
         <BeefCutsMap onCutHover={setSelectedCutId} selectedCutId={selectedCutId}/>
-        <BeefCutInfo selectedId={selectedCutId} language={language} />
+        <BeefCutInfo selectedCutId={selectedCutId} language={language} />
         <SteakDonenessTable language={language} />
         <a
           href="https://armeator.com/yllebntc"
