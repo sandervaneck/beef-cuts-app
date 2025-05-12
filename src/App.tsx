@@ -45,7 +45,7 @@ const App: React.FC = () => {
       <div className="cut-container">
         <h4>{translateLabel("chooser", language)}</h4>
 
-        <BeefCutsMap onCutHover={setSelectedCutId} />
+        <BeefCutsMap onCutHover={setSelectedCutId} selectedCutId={selectedCutId}/>
         <BeefCutInfo selectedId={selectedCutId} language={language} />
         <SteakDonenessTable language={language} />
         <a
