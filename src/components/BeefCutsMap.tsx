@@ -547,7 +547,7 @@ interface PathProps {
   d: string;
   transform?: string;
   selectedCutId: string | null;
-  onCutHover: onCutHover: (cutId: string | null) => void;
+  onCutHover: (cutId: string | null) => void;
 }
 const PathForId: React.FC<PathProps> = ({id, d, transform, selectedCutId}) => {
   return <path
