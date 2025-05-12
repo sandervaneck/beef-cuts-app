@@ -561,7 +561,6 @@ const PathForId: React.FC<PathProps> = ({id, d, transform, selectedCutId}) => {
           strokeMiterlimit={4}
           strokeOpacity={1}
           strokeDasharray="none"
-          transform={transform}
           onMouseEnter={() => onCutHover(id)}
           onMouseLeave={() => onCutHover(null)}
         />
