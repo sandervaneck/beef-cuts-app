@@ -422,62 +422,36 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
           onMouseEnter={() => onCutHover("2")}
           onMouseLeave={() => onCutHover(null)}
         />
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="1"
           d="m 415.0625,28.75 -47.375,13.71875 -39.75,8.625 13.875,77.6875 7.59375,-14.96875 4.5,-3 c 0,0 0.0602,0.27071 0.0625,0.28125 l 11.9375,-10.28125 17.5,-6 16,-1 0,-0.5 23,15.5 3.53125,5.21875 2.875,-1.53125 -13.75,-83.75 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("1")}
-          onMouseLeave={() => onCutHover(null)}
         />
 
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="27"
           d="m 407.875,29.53125 c -1.42018,0 -2.18247,0.766989 -2.5,2.03125 l 7,-2.03125 -4.5,0 z m 7.3125,0 13.625,82.96875 -2.875,1.53125 15.46875,22.78125 -0.78125,17.84375 42.75,24.25 c 2.01507,-3.36624 4.02891,-7.53698 5.71875,-8.75 C 504.9844,158.74942 490.32213,164.26507 517.25,155 501.15265,139.89633 490.7148,121.18818 483.125,99.78125 476.39431,80.797444 484.28286,56.529564 470.21875,41.1875 461.0857,31.224569 452.45314,29.53125 438.9375,29.53125 l -23.75,0 z"
-          fill="#f51633"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeMiterlimit={4}
-          strokeOpacity={1}
-          strokeDasharray="none"
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("27")}
-          onMouseLeave={() => onCutHover(null)}
         />
 
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="19"
           d="m 399.40625,93.3125 0,0.5 0,0.375 3.5,84.125 -0.53125,-0.0312 37.03125,5.53125 2,-47 -19,-28 -23,-15.5 z"
-          fill="#ca1a23"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("19")}
-          onMouseLeave={() => onCutHover(null)}
         />
-
-        <path
+        <PathForId
+          onCutHover={onCutHover}
+          selectedCutId={selectedCutId}
           id="18"
           d="m 399.40625,93.8125 -16,1 -17.5,6 -11.9375,10.28125 c 0.1842,0.82636 7.4375,33.50844 7.4375,56.21875 0,2.63238 -0.10725,5.4961 -0.28125,8.5 l 41.78125,2.5 -3.5,-84.5 z"
-          fill="#ca1a23"
-          fillOpacity={1}
-          stroke="#000000"
-          strokeWidth={1.00000012}
-          strokeOpacity={1}
           transform="matrix(0.6362812,0,0,0.6362812,7.6936433,-10.065285)"
-          onMouseEnter={() => onCutHover("18")}
-          onMouseLeave={() => onCutHover(null)}
         />
-
         <PathForId
           onCutHover={onCutHover}
           selectedCutId={selectedCutId}
