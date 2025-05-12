@@ -4,7 +4,7 @@ interface Props {
   onCutHover: (cutId: string | null) => void;
 }
 
-const BeefCutsMap: React.FC<Props> = ({ onCutHover }) => {
+const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
   return (
     <svg
       style={{ width: "200%", height: "auto" }}
