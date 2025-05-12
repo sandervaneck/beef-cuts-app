@@ -479,6 +479,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         />
 
         <PathForId
+          onCutHover={onCutHover}
           selectedCutId={selectedCutId}
           id="17"
           d="m 353.90625,110.8125 -4.5,3 -7.59375,14.96875 -9.53125,18.84375 -1.375,2.6875 2,41.5 21,39 c 0,0 7.5,-40.50001 7.5,-63.5 0,-23 -7.5,-56.5 -7.5,-56.5 z"       
@@ -486,6 +487,7 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         />
 
         <PathForId
+          onCutHover={onCutHover}
           selectedCutId={selectedCutId}
           id="23"
           d="m 32.151771,139.69312 c 0,0 12.009707,-2.01241 20.518057,-0.7676 8.508351,1.24481 19.328748,4.16539 19.328748,4.16539 l -5.251127,12.3556 -0.503585,7.68855 -17.632543,1.31475 -24.1818,-4.06106 7.72225,-20.69563 z"
@@ -494,10 +496,12 @@ const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
         <PathForId
           selectedCutId={selectedCutId}
           id="14"
+          onCutHover={onCutHover}
           d="M 78.492793,64.81814 88.268592,87.383739 92.3384,109.31647 107.23839,72.916162 78.492793,64.81814 z"
         />
 
         <PathForId
+          onCutHover={onCutHover}
           id="4"
           d="m 88.876733,54.5548 68.265287,19.389246 c 0.47295,0.508044 3.31951,0.529702 2.34216,7.946374 -0.97485,7.39772 -3.02579,5.660785 -4.3298,5.60533 L 85.080248,66.843606 c 0,0 -3.552471,-2.909272 -2.06214,-7.737655 1.490332,-4.828382 5.858625,-4.551151 5.858625,-4.551151 z"
           selectedCutId={selectedCutId}
