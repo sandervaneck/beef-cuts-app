@@ -266,22 +266,7 @@ export const beefCuts: BeefCut[] = [
       carbs: 0,
     },
     preparation: [
-      {
-        english:
-          "Stews: 1. Rarely used in stews due to tenderness. 2. If used, add at the end to avoid overcooking. 3. Simmer gently for 10–15 min. Internal temp: 55–60°C (131–140°F).",
-        german:
-          "Schmorgerichte: 1. Aufgrund der Zartheit selten verwendet. 2. Wenn doch, erst am Ende zugeben. 3. Sanft 10–15 Min. garen. Kerntemperatur: 55–60°C.",
-        italian:
-          "Stufati: 1. Poco usato per la sua tenerezza. 2. Se usato, aggiungerlo alla fine. 3. Cuocere dolcemente per 10–15 min. Temp. interna: 55–60°C.",
-        french:
-          "Ragoûts : 1. Rarement utilisé car très tendre. 2. À ajouter en fin de cuisson. 3. Mijoter doucement 10–15 min. Temp. interne : 55–60°C.",
-        spanish:
-          "Guisos: 1. Poco común por su ternura. 2. Si se usa, añadir al final. 3. Cocinar suave 10–15 min. Temp. interna: 55–60°C.",
-        dutch:
-          "Stoofpotten: 1. Zelden gebruikt vanwege de malsheid. 2. Voeg het op het einde toe om overgaring te voorkomen. 3. Laat 10–15 min zachtjes sudderen. Kerntemperatuur: 55–60°C.",
-        portuguese:
-          "Ensopados: 1. Raramente usado por ser muito macio. 2. Se usado, adicionar no final para evitar cozinhar demais. 3. Cozinhar suavemente por 10–15 min. Temp. interna: 55–60°C.",
-      },
+      
       {
         english:
           "Frying Pan: 1. Sear 2–3 min per side in very hot pan. 2. Baste with butter and herbs. 3. Rest 5 minutes.",
