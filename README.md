@@ -77,5 +77,5 @@ src/
 
 ## License
 
-This project was bootstrapped with Create React App. Consult the repository owner for
+Consult the repository owner for
 licensing and usage terms before distributing or deploying the application.
