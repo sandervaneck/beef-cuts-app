@@ -8,7 +8,8 @@ interface Props {
 const BeefCutsMap: React.FC<Props> = ({ onCutHover, selectedCutId }) => {
   return (
     <svg
-      style={{ width: "200%", height: "auto" }}
+      className="beef-map"
+      style={{ width: "100%", height: "auto" }}
       viewBox="0 0 800 250"
       // xmlns="http://www.w3.org/2000/svg"
     >

@@ -26,28 +26,51 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <header className="header">
+        <div className="header-badge">{translateLabel("butcher", language)}</div>
         <h1>{translateLabel("butcher", language)} van Eck</h1>
-        <select
-          className="language-select"
-          value={language}
-          onChange={(e) => setLanguage(e.target.value as any)}
-        >
-          <option value="english">English</option>
-          <option value="french">Français</option>
-          <option value="italian">Italiano</option>
-          <option value="spanish">Español</option>
-          <option value="german">Deutsch</option>
-          <option value="dutch">Nederlands</option>
-          <option value="portuguese">Portugues</option>
-        </select>
+        <div className="header-controls">
+          <label className="language-label" htmlFor="language-select">
+            Language
+          </label>
+          <select
+            id="language-select"
+            className="language-select"
+            value={language}
+            onChange={(e) => setLanguage(e.target.value as any)}
+          >
+            <option value="english">English</option>
+            <option value="french">Français</option>
+            <option value="italian">Italiano</option>
+            <option value="spanish">Español</option>
+            <option value="german">Deutsch</option>
+            <option value="dutch">Nederlands</option>
+            <option value="portuguese">Portugues</option>
+          </select>
+        </div>
       </header>
 
       <div className="cut-container">
-        <h4>{translateLabel("chooser", language)}</h4>
+        <section className="panel panel-map">
+          <div className="section-kicker">Prime Guide</div>
+          <h4>{translateLabel("chooser", language)}</h4>
+          <div className="map-shell">
+            <BeefCutsMap
+              onCutHover={setSelectedCutId}
+              selectedCutId={selectedCutId}
+            />
+          </div>
+        </section>
 
-        <BeefCutsMap onCutHover={setSelectedCutId} selectedCutId={selectedCutId}/>
-        <BeefCutInfo selectedCutId={selectedCutId} language={language} />
-        <SteakDonenessTable language={language} />
+        <section className="panel">
+          <div className="section-kicker">Cut Details</div>
+          <BeefCutInfo selectedCutId={selectedCutId} language={language} />
+        </section>
+
+        <section className="panel">
+          <div className="section-kicker">Chef Reference</div>
+          <SteakDonenessTable language={language} />
+        </section>
+
         <a
           href="https://armeator.com/yllebntc"
           target="_blank"
