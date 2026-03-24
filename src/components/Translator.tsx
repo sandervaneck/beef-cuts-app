@@ -169,6 +169,42 @@ export const translateLabel = (label: string, language: string): string => {
       dutch: "Kies je rundstuk!",
       portuguese: "Escolha o seu corte de carne!",
     },
+    primeGuide: {
+      english: "Prime Guide",
+      german: "Premium-Guide",
+      french: "Guide premium",
+      italian: "Guida premium",
+      spanish: "Guía premium",
+      dutch: "Premiumgids",
+      portuguese: "Guia premium",
+    },
+    cutDetails: {
+      english: "Cut Details",
+      german: "Details zum Zuschnitt",
+      french: "Détails de la coupe",
+      italian: "Dettagli del taglio",
+      spanish: "Detalles del corte",
+      dutch: "Details van het stuk",
+      portuguese: "Detalhes do corte",
+    },
+    chefReference: {
+      english: "Chef Reference",
+      german: "Kochreferenz",
+      french: "Référence du chef",
+      italian: "Riferimento dello chef",
+      spanish: "Referencia del chef",
+      dutch: "Chefreferentie",
+      portuguese: "Referência do chef",
+    },
+    gastronomySoftware: {
+      english: "Looking for software for your gastronomy?",
+      german: "Suchen Sie Software für Ihre Gastronomie?",
+      french: "Vous cherchez un logiciel pour votre gastronomie ?",
+      italian: "Cerchi un software per la tua ristorazione?",
+      spanish: "¿Buscas software para tu negocio gastronómico?",
+      dutch: "Op zoek naar software voor je horeca?",
+      portuguese: "Procura software para o seu negócio gastronômico?",
+    },
   };
 
   return (

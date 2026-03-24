@@ -51,7 +51,9 @@ const App: React.FC = () => {
 
       <div className="cut-container">
         <section className="panel panel-map">
-          <div className="section-kicker">Prime Guide</div>
+          <div className="section-kicker">
+            {translateLabel("primeGuide", language)}
+          </div>
           <h4>{translateLabel("chooser", language)}</h4>
           <div className="map-shell">
             <BeefCutsMap
@@ -62,12 +64,16 @@ const App: React.FC = () => {
         </section>
 
         <section className="panel">
-          <div className="section-kicker">Cut Details</div>
+          <div className="section-kicker">
+            {translateLabel("cutDetails", language)}
+          </div>
           <BeefCutInfo selectedCutId={selectedCutId} language={language} />
         </section>
 
         <section className="panel">
-          <div className="section-kicker">Chef Reference</div>
+          <div className="section-kicker">
+            {translateLabel("chefReference", language)}
+          </div>
           <SteakDonenessTable language={language} />
         </section>
 
@@ -84,7 +90,7 @@ const App: React.FC = () => {
       </div>
       <footer className="footer">
         <p className="footer-title">
-          Looking for software for your gastronomy?
+          {translateLabel("gastronomySoftware", language)}
         </p>
         <div className="footer-contact">
           <p>Sander van Eck</p>
@@ -109,14 +115,6 @@ const App: React.FC = () => {
               rel="noopener noreferrer"
             >
               techvaneck.com
-            </a>
-            {" | "}
-            <a
-              href="https://www.swipingchef.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              swipingchef.com
             </a>
           </p>
         </div>
